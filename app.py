@@ -8,6 +8,7 @@ import json
 import sys
 
 app = Flask(__name__)
+# 추가했다!
 
 client = MongoClient('mongodb://test:test@3.106.98.242?authSource=admin',27017)
 # client = MongoClient('localhost',27017)
